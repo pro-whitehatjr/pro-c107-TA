@@ -3,7 +3,7 @@ import time
 import math
 
 
-
+video = cv2.VideoCapture("bb3.mp4")
 while True:
     check,img = video.read()   
 
